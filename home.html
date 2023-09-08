@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <!-- Css link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+  <!-- smooth scroll -->
+        <script src="smooth-scroll.js"></script>
+        <script>
+            var scroll = new SmoothScroll('a[herf*="#"]');
+        </script>
+
+<!-- font awesome cdn -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- back to top button -->
+<style>
+    body {
+    
+    background-image: url('images/body-bg.png.webp');
+   background-repeat: no-repeat;
+   background-size: cover;
+        margin: 0;
+    padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 15px;
+    }
+    
+    #myBtn {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 30px;
+      z-index: 99;
+      font-size: 18px;
+      border: none;
+      outline: none;
+      background-color: rgb(37, 66, 106);
+      color: white;
+      cursor: pointer;
+      padding: 15px;
+      border-radius: 50%;
+    }
+    
+    #myBtn:hover {
+      background-color: #555;
+    }
+
+    .logo{
+        color: white;
+        font-weight: 600;
+        font-size:1.1em;
+    }
+    .navbar-toggler-icon {
+    background-color: white; 
+  
+}
+
+
+    
+    </style>
+</head>
+<body >
+    <div class="cursor"></div>
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">  <h5 class="logo">SHRUTI PORTFOLIO</h5></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- <i class="fa fa-bars" aria-hidden="true"></i> -->
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                   
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#top">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-us">ABOUT </a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">PROJECTS</a>
+                          </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">CONTACT</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </section>
+<!-- banner - -->
+
+   
+    <section id="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="promo-title">HELLO</p>
+                    <h1 class="name">I AM SHRUTI KUMARI</h1>
+                    <h1 class="name">WEB DEVELOPER</h1>
+
+
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="images/home-right.webp" class="img-fluid" alt="error">
+                
+
+
+
+                </div>
+            </div>
+        </div>
+        
+    </section>
+      <!-- about -->
+      <section id="about-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="images/about-us.webp" alt="error" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <p class="promo-title">LET'S INTRODUCE ABOUT MYSELF</p>
+                    <ul class="name-about " style="list-style: none;">
+                      <li >Hi, I'm Shruti Kumari, and I come from Bokaro Steel City in Jharkhand. Currently, I'm studying Computer Science at Guru Gobind Singh Educational Society's Technical Campus.</li>
+                      <li >I have good knowledge of web development technologies like HTML, CSS, Bootstrap, JavaScript, MERN stack (MongoDB, Express.js, React.js, Node.js), PHP, and MySQL. These skills allow me to create attractive and user-friendly websites and web applications.</li>
+                      <li >Besides coding, I enjoy exploring new places, planting plants, and, of course, coding itself. I'm self-motivated, hardworking, and disciplined in my approach to learning.</li>
+                      <li >My main goal is to become a skilled web developer and work independently in the field. I'm committed to continuous learning, keeping up with the latest technologies, and gaining practical experience to achieve my aspirations.I'm excited about the opportunities ahead and the chance to grow personally and professionally. With determination and a thirst for knowledge, I'm confident in reaching my goals.</li>
+                      
+                    </ul>
+                    <button type="button" class="btn btn-outline-success btn-about" >DOWNLOAD CV</button>
+                   
+                
+      
+                      
+                </div>
+
+            <div>
+
+        </div>
+        
+
+    </section>
+
+     <!-- Projects -->
+
+
+     <section id="projects">
+        <div class="container">
+            <h1 class="title text-center">PORTFOLIO</h1>
+            <DIV class="row offset-1">
+                <div class="col-md-5 testimonials">
+                    <h3 class="my-2">Login and Registaion</h3>
+                    <p>I have created a login and registration website using HTML, CSS, Bootstrap, PHP, and MySQL.</p>
+                    <p>Users can login or register, and after logging in, they can update or modify their login details. I have implemented both the frontend and backend functionalities. Once completed, I hosted my website on a free hosting platform. By clicking the button below, you can visit my website</p>
+                    <a class="btn btn-outline-secondary" href="https://ck00web.000webhostapp.com/" role="button">Login and Registaion</a>
+                    
+                    
+                </div>
+                <div class="col-md-5 testimonials">
+                    <h3>Dynamic website</h3>
+                    <p>I have created a dynamic website using HTML, CSS, Bootstrap, and JavaScript.</p>
+                    <p>This website showcases my skills in CSS, Bootstrap, and JavaScript. It is fully responsive and designed to deliver the best user experience. I hosted my website on a free hosting platform.  By clicking the button below, you can visit my website</p>
+                    <a class="btn btn-outline-secondary" href=" https://64a1a62fa3ef6d6a417df1c8--gorgeous-puppy-46dea1.netlify.app/ " role="button">Dynamic website</a>
+                     
+                    
+                </div>
+                <div class="col-md-5 testimonials">
+                   <h3>Todo List </h3>
+                   <p>I have created Todo List using using HTML, CSS, Bootstrap, PHP, and MySQL. </p>
+                   <p>Users can created Todo list , they can update or modify their Todo list. I have implemented both the frontend and backend functionalities. By clicking the button below, you can my github repo</p>
+                   <a class="btn btn-outline-secondary" href="https://github.com/skgithubusername/Todo" role="button">Todo List</a>
+
+
+                    
+                </div>
+                <div class="col-md-5 testimonials">
+                    <h3>Crop and Resize </h3>
+                    <p>I have created Image Crop and resize it , by using HTML, CSS , and JavaScript.</p>
+                    <p>User can select image from file and then crop it and after croping they can resize it . By clicking the button below, you can my github repo</p></p>
+                   <a class="btn btn-outline-secondary" href="https://github.com/skgithubusername/skassigniment" role="button">Crop and Resize</a>
+
+  
+                    
+                </div>
+
+            </DIV>
+        </div>
+    </section>
+
+    <!-- contact -->
+
+    <section id="contact">
+        <div class="container">
+            <h1 class="title text-center">Contact Me</h1>
+            <h5>Leave a message below .</h5>
+            <div class="row">
+                <div class="col-md-6">
+                    <form>
+                      <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                      </div>
+                      <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="you@example.com" required>
+                        <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+                      </div>
+                      <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Your message" required></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-lg btn-outline-info ">Submit</button>
+                    </form>
+                  </div>
+                  <div class="col-md-6">
+                    <img src="images/home2.png" alt="error" class="img-fluid">
+
+                </div>
+
+            <div>
+
+        </div>
+        
+
+    </section>
+
+<section id="social-media" >
+    <div class="container text-center">
+        <p>FIND ME ON SOCIAL MEDIA</p>
+
+        <div class="social-icons">
+            <a href="https://github.com/skgithubusername/"><img src="images/git.jpg" style="border-radius: 50%;"></a>
+            <a href="no.html"><img src="images/instagram-icon.png"></a>
+            <a href="no.html"><img src="images/twitter-icon.png"></a>
+            <a href="no.html"><img src="images/whatsapp-icon.png"></a>
+            <a href="no.html"><img src="images/linkedin-icon.png"></a>
+            <a href="no.html"><img src="images/snapchat-icon.png"></a>
+        </div>
+    </div>
+</section>
+    <!-- footer -->
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 footer-box">
+                    <img src="images/logo.png" alt="errors">
+                    <p>Thank you for taking the time to get to know me a little better. I look forward to connecting with fellow web developers and embarking on this exciting journey together.</p>
+
+                </div>
+                <div class="col-md-4 footer-box ">
+                    <p><b>CONTACT US</b></p>
+                    <p><i class="fa fa-map-marker"></i>Bokaro Steel City, Jharkhand</p>
+                    <p><i class="fa fa-phone"></i>9576672750</p>
+                    <p><i class="fa-solid fa-envelope"></i> shruti30000@gmail.com</p>
+        
+                </div>
+              
+            </div>
+
+        </div>
+    </section>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-house"></i></button>
+    
+
+    <script>
+
+        // cursure js
+         var cursor = document.querySelector('.cursor');
+
+document.addEventListener('mousemove', function(e) {
+  cursor.style.left = e.clientX + 'px';
+  cursor.style.top = e.clientY + 'px';
+});
+
+var links = document.querySelectorAll('a');
+
+for (var i = 0; i < links.length; i++) {
+  links[i].addEventListener('mouseover', function() {
+    cursor.classList.add('expand');
+  });
+  
+  links[i].addEventListener('mouseout', function() {
+    cursor.classList.remove('expand');
+  });
+}
+
+// button js
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+    
+</body>
+</html>
